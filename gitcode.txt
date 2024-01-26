@@ -1,0 +1,11 @@
+for creating a branch: git checkout -b <branchname>
+to add the files: git add <file name>
+to add all files: git add .
+git commit: git commit origin head
+commit msg: 
+feat:to add a new feature
+refactor: for code changes
+perf: code improve
+chore: minor changes
+debug: debugging
+ex:git commit -m "feat: added header"
