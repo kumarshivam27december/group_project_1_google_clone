@@ -1,53 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>
-            google.com
-        </title>
-        
-        <style>
-            #gmail{
-                text-align: center;
-                border-radius: 5%;
-                background-color: rgb(240, 160, 240);
-                margin: 10px 45% 10px 45%;
-            }
-            body{
-                background-color:purple;
-            }
-            .big-heading{
-                font-size: 2cm;
-                color: white;
-                text-align: center;
-                margin-top: 30%;
-            }
-            #form2{
-                text-align: center;
-                
-               
-            }
-            #center-search-bar{
-                padding: 18px;
-                border-radius: 50%;
-            }
-        </style>
-    </head>
-    <body>
-        <h1 class="big-heading">Google</h1>
-        <form id="form2" action="/submit-google-form">
-            <input name="input-field" id="center-search-bar" type="text" placeholder="🔍Search google or type a URL               🎙️  📷" size="43" >
-        </form>
+  <head>
+    <title>google.com</title>
 
-        
-        <small><p id="gmail">gmail <img src="Gmail_Logo_16px.png" alt="gmail logo" width="10px" > </p></small>
-        
-        
-        
-        <small><p id="Youtube">Youtube</p></small>
-        <small><p id="Map">Map</p></small>
-        <small><p id="News">News</p></small>
+    <style>
+      #gmail {
+        text-align: center;
+        border-radius: 5%;
+        background-color: rgb(240, 160, 240);
+        margin: 10px 45% 10px 45%;
+      }
+      body {
+        background-color: grey;
+      }
+      .big-heading {
+        font-size: 2cm;
+        color: white;
+        text-align: center;
+        margin-top: 30%;
+      }
+      #form2 {
+        text-align: center;
+      }
+      #center-search-bar {
+        padding: 18px;
+        border-radius: 25px;
+      }
+      .box {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="big-heading">Google</h1>
+    <form id="form2" action="/submit-google-form">
+      <input
+        name="input-field"
+        id="center-search-bar"
+        type="text"
+        placeholder="🔍Search google or type a URL"
+        size="43"
+      />
+    </form>
 
-        
-
-    </body>
+    <small><p class="box">Gmail</p></small>
+    <small><p class="box">Youtube</p></small>
+    <small><p class="box">Map</p></small>
+    <small><p class="box">News</p></small>
+  </body>
 </html>
